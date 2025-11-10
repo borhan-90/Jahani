@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="utf-8"/>
+        <title>
+            کلاس تیزهوشان مهندس پیری
+        </title>
+
+
+        <style>
+
+            
+
+            div{
+               width: 1330px;
+               height: 55px;
+               background-color:rgb(255, 174, 0);
+
+            }
+
+            .t1{
+            border-radius:20px;
+            }
+
+            #meno{
+               width: 1325px;
+               height: 200px;
+               background-color: #ffffbe;
+               margin: 0px;
+               display:flex; 
+               justify-content: space-around;
+               flex-wrap: wrap;
+               padding: 0px 8px;
+            }
+
+            #meno svg{
+                transition: all 0.3s ;
+            }
+
+            #meno svg:hover{
+                transform:scale(1.1 , 1.1);
+            }
+
+
+            #ketab{
+                width: 1330px;
+                height: 500px;
+                background-color: #ffffbe ;
+                margin: 500 auto;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                padding: 10px 0px;
+            }
+
+            #ketab a img{
+                width: 300px;
+                height: 500px;
+                border-radius: 15px;
+                box-shadow: 3px 3px 10px gray;
+                transition: all 0.3s;
+            }
+
+            #ketab a img:hover{
+                transform: translateY(-10px);
+            }
+
+            #ketab a{
+                margin: 10px;
+            }
+
+
+            #ostad{
+               width: 1320px;
+               height: 370px;
+               background-color: #ffffbe;
+               margin: 0px;
+               display:flex; 
+               justify-content: space-around;
+               flex-wrap: wrap;
+               padding: 0px 8px;
+            }
+            
+            #ostad a svg:hover{
+                transform: translateY(-10px);
+            }
+
+            #ostad a svg{
+                border-radius: 15px;
+                box-shadow: 3px 3px 10px rgb(100, 100, 100);
+                transition: all 0.3s;
+            }
+
+            
+            #aks {
+            width: 200px;
+            height: 60px;
+            background: #ffffbe;
+            margin: 10px auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 5px 5px;
+            }   
+
+            #aks a img {
+                width: 80px;
+                height: 80px;
+                border-radius: 15px;
+                box-shadow: 3px 3px 10px gray;
+                transition: all0.3s;
+            }
+
+            #aks a img:hover{
+                transform: scale(1.1 , 1.1);
+            }
+
+            #aks a {
+                margin: 10px;
+            }
+
+
+            html {
+                scroll-behavior:smooth;
+            }
+        
+            
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+            }
+
+            #myBtn {
+                display: none;
+                position: fixed;
+                bottom: 20px;
+                right: 10px;
+                z-index: 20;
+                font-size: 25px;
+                border: none;
+                outline: none;
+                background-color:rgb(74, 202, 23);
+                color: white;
+                cursor:auto;
+                padding: 10px;
+                border-radius: 10px;
+            }
+
+            #myBtn:hover {
+            background-color: rgb(66, 95, 190);
+            transform: scale(1.1 , 1.1);
+            }
+
+
+            footer {
+                text-align: center;
+                padding: 30px;
+                background: rgb(255, 174, 0);
+                color: black;
+                border-radius: 50px 50px 0 0;
+                margin-top: 40px;
+            }
+
+        </style>       
+    </head>
+    <body style="background-color: #ffffbe">
+
+
+        
+
+        <button onclick="topFunction()" id="myBtn" style="font-size: 25px; font-family: b homa;">
+            بالا بروید</button>
+            
+        
+            
+            <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 150) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+        
+        <div class="t1">
+            <svg width="1300" height="60">
+                <text font-size="25" font-family="b homa" x="1285" y="33" style="fill:black;"> موسسه‌ی تیزهوشان مهندس عباس پیری </text>
+            </svg>
+        </div>
+        
+        <br/><br/>     
+        
+            
+        <div id = "meno">
+            <a href="#ketab">
+                <svg width="170" height="80">
+                    <rect x="5" y="5" rx="10" ry="5" width="160" height="60" style="fill: rgb(161, 45, 45);stroke: rgb(161, 45, 45);stroke-width:3;" />
+                    <text font-size="25" font-family="b homa" x="148" y="43" style="fill:black;"> کتاب‌های اصلی </text>
+                   </svg>
+            </a>
+            <br/>
+
+            <a href="2.Html">
+                <svg width="170" height="80">
+                    <rect x="5" y="5" rx="10" ry="5" width="160" height="60" style="fill: rgb(161, 45, 45);stroke: rgb(161, 45, 45);stroke-width:3;" />
+                    <text font-size="25" font-family="b homa" x="145" y="32" style="fill:black;"> قبولی‌های سال </text>
+                    <text font-size="25" font-family="b homa" x="133" y="60" style="fill:black;"> 1402-1401 </text>
+                   </svg>
+            </a>
+            <br/>
+
+            <a href="3.Html">
+                <svg width="170" height="80">
+                    <rect x="5" y="5" rx="10" ry="5" width="160" height="60" style="fill: rgb(161, 45, 45);stroke: rgb(161, 45, 45);stroke-width:3;" />
+                    <text font-size="25" font-family="b homa" x="145" y="32" style="fill:black;"> قبولی‌های سال </text>
+                    <text font-size="25" font-family="b homa" x="138" y="60" style="fill:black;"> 1403-1402 </text>
+                   </svg>
+            </a>
+            <br/>
+
+            <a href="4.Html">
+                <svg width="170" height="80">
+                    <rect x="5" y="5" rx="10" ry="5" width="160" height="60" style="fill: rgb(161, 45, 45);stroke: rgb(161, 45, 45);stroke-width:3;" />
+                    <text font-size="25" font-family="b homa" x="145" y="32" style="fill:black;"> قبولی‌های سال </text>
+                    <text font-size="25" font-family="b homa" x="140" y="60" style="fill:black;"> 1404-1403 </text>
+                </svg>
+            </a>
+            <br/>
+
+            <a href="d.Html">
+                <svg width="170" height="80">
+                    <rect x="5" y="5" rx="10" ry="5" width="160" height="60" style="fill: rgb(161, 45, 45);stroke:rgb(161, 45, 45);stroke-width:3;" />
+                    <text font-size="25" font-family="b homa" x="125" y="40" style="fill:black;"> درباره‌ی ما </text>
+                </svg>
+            </a>
+            <br/>
+
+            <a href="#o">
+                <svg width="170" height="80">
+                    <rect x="5" y="5" rx="10" ry="5" width="160" height="60" style="fill: rgb(161, 45, 45);stroke: rgb(161, 45, 45);stroke-width:3;" />
+                    <text font-size="25" font-family="b homa" x="110" y="40" style="fill:black;"> اساتید </text>
+                </svg>
+            </a>
+            <br/>
+
+            <a target = "_blank" rel = "nofollow" href="https://www.google.com/maps/place/Tehran+Province,+Tehran,+District+21,+14th+St,+M6PR%2BH69,+Iran/@35.6857586,51.2371182,17z/data=!4m6!3m5!1s0x3f8dfbc1b35bca55:0x234278039483e790!8m2!3d35.6863884!4d51.2405832!16s%2Fg%2F11hf7dc0v4?entry=ttu&g_ep=EgoyMDI1MTEwNC4xIKXMDSoASAFQAw%3D%3D">
+                <svg width="170" height="80">
+                    <rect x="5" y="5" rx="10" ry="5" width="160" height="60" style="fill: rgb(161, 45, 45);stroke: rgb(161, 45, 45);stroke-width:3;" />
+                    <text font-size="23" font-family="b homa" x="160" y="40" style="fill:black;"> مکان کلاس حضوری </text>
+                </svg>
+            </a>
+            <br/>
+
+            <a target = "_blank" rel = "nofollow" href="https://www.google.com/maps/dir//35.6999258,51.2555562/@35.6998281,51.2556849,21z?entry=ttu&g_ep=EgoyMDI1MTEwNC4xIKXMDSoASAFQAw%3D%3D">
+                <svg width="170" height="80">
+                    <rect x="5" y="5" rx="10" ry="5" width="160" height="60" style="fill: rgb(161, 45, 45);stroke: rgb(161, 45, 45);stroke-width:3;" />
+                    <text font-size="24" font-family="b homa" x="161" y="40" style="fill:black;"> مکان دفتر موسسه‌ </text>
+                </svg>
+            </a>
+            <br/>
+
+            <a href="imgs.Html">
+                <svg width="170" height="80">
+                    <rect x="5" y="5" rx="10" ry="5" width="160" height="60" style="fill: rgb(161, 45, 45);stroke: rgb(161, 45, 45);stroke-width:3;" />
+                    <text font-size="25" font-family="b homa" x="117" y="40" style="fill:black;"> عکس‌ ها </text>
+                </svg>
+            </a>
+            <br/>
+
+            <a href="mp4.Html">
+                <svg width="170" height="80">
+                    <rect x="5" y="5" rx="10" ry="5" width="160" height="60" style="fill: rgb(161, 45, 45);stroke: rgb(161, 45, 45);stroke-width:3;" />
+                    <text font-size="25" font-family="b homa" x="115" y="40" style="fill:black;"> فیلم ها </text>
+                </svg>
+            </a>
+            <br/>
+
+            <a href="sh.Html">
+                <svg width="170" height="80">
+                    <rect x="5" y="5" rx="10" ry="5" width="160" height="60" style="fill: rgb(161, 45, 45);stroke: rgb(161, 45, 45);stroke-width:3;" />
+                    <text font-size="25" font-family="b homa" x="145" y="40" style="fill:black;"> شرایط ثبت نام </text>
+                </svg>
+            </a>
+            <br/>
+
+            <a href="kh.Html">
+                <svg width="170" height="80">
+                    <rect x="5" y="5" rx="10" ry="5" width="160" height="60" style="fill: rgb(161, 45, 45);stroke: rgb(161, 45, 45);stroke-width:3;" />
+                    <text font-size="25" font-family="b homa" x="100" y="40" style="fill:black;"> اخبار </text>
+                </svg>
+            </a>
+            <br/>
+
+            <a href="t.Html">
+                <svg width="170" height="80">
+                    <rect x="5" y="5" rx="10" ry="5" width="160" height="60" style="fill: rgb(161, 45, 45);stroke: rgb(161, 45, 45);stroke-width:3;" />
+                    <text font-size="25" font-family="b homa" x="135" y="40" style="fill:black;"> تماس با ما </text>
+                </svg>
+            </a>
+            <br/>
+
+            <a href="s.Html">
+                <svg width="170" height="80">
+                    <rect x="5" y="5" rx="10" ry="5" width="160" height="60" style="fill: rgb(161, 45, 45);stroke: rgb(161, 45, 45);stroke-width:3;" />
+                    <text font-size="25" font-family="b homa" x="150" y="40" style="fill:black;"> سوالات متداول </text>
+                </svg>
+            </a>
+            <br/>
+
+            
+        </div>
+
+
+        <div id="ketab">
+            <a target = "_blank" rel = "nofollow" href="https://virgool.io/@hannasamandari/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8-%D9%87%D9%88%D8%B4-%DA%A9%D9%85%D9%BE%D9%84%DA%A9%D8%B3-zovsd1ggmvsh"> <img src="k.jpg"> </a>
+            <a target="_blank" rel = "nofllow" href="https://ketabrah.com/book/70658-%DA%A9%D8%AA%D8%A7%D8%A8-%D8%AC%D8%A7%D9%85%D8%B9-%D9%87%D9%88%D8%B4-%D8%A7%D8%B3%D9%85%D8%A7%D8%B1%D8%AA%DB%8C%D8%B2"> <img src="e.jpg"> </a>
+            <a target="_blank" rel = "nofllow" href="https://blog.faradars.org/%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C-%D8%A8%D8%A7-%DA%A9%D8%AA%D8%A7%D8%A8-%D9%87%D9%88%D8%B4-%D9%81%D8%B1%D8%A7%D8%B2%D9%85%DB%8C%D9%86%DB%8C-et/"> <img src="t.jpg"> </a>
+            <a target="_blank" rel = "nofllow" href="https://ketabrah.com/book/85029-%da%a9%d8%aa%d8%a7%d8%a8-%d9%87%d9%88%d8%b4-%d9%85%d8%a7%d9%84%d8%aa%db%8c%d9%be%d9%84-%d8%aa%db%8c%d8%b2%d9%87%d9%88%d8%b4%d8%a7%d9%86-%d8%b4%d8%b4%d9%85"> <img src="m.jpg"> </a>
+            <a target="_blank" rel = "nofllow" href="https://shahreketabjaber.ir/product/128/%D9%85%DB%8C%D9%86%DB%8C-%DA%A9%D9%85%D9%BE%D9%84%DA%A9%D8%B3-%D8%AF%D8%A7%D9%86%D8%B3%D8%AA%D9%86%DB%8C-%D9%87%D8%A7%DB%8C-%D9%87%D9%88%D8%B4-%DA%A9%D9%84%D8%A7%D9%85%DB%8C/"> <img src="n.jpg"> </a>
+        </div>
+
+
+
+
+
+
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <a id="o" style="font-size:45px; font-family:b homa;">
+            اساتید:
+        </a>   
+        <br/><br/><br/>
+        <div id="ostad">
+            <a href="a.Html">
+                <svg width="310" height="370">
+                    <rect x="5" y="5" rx="10" ry="5" width="300" height="350" style="fill: #e4e4dc;stroke: #e4e4dc;stroke-width:3;" />
+                    <text font-size="25" font-family="b homa" x="234" y="40" style="fill:black;"> استاد عباس پیری </text>
+                    
+                    <text font-size="25" font-family="b homa" x="210" y="170" style="fill:black;"> هوش ریاضی </text>
+                    <text font-size="25" font-family="b homa" x="215" y="210" style="fill:black;"> هوش تصویری</text>
+                    <text font-size="25" font-family="b homa" x="210" y="250" style="fill:black;"> هوش فضایی</text>
+                    <text font-size="25" font-family="b homa" x="210" y="290" style="fill:black;"> هوش منطقی</text>
+                </svg>
+            </a>
+            <br/>
+
+            <a href="m.Html">
+                <svg width="310" height="370">
+                    <rect x="5" y="5" rx="10" ry="5" width="300" height="350" style="fill: #e4e4dc;stroke:#e4e4dc;stroke-width:3;" />
+                    <text font-size="25" font-family="b homa" x="250" y="40" style="fill:black;"> استاد مریم حاج‌ملکی</text>
+                    
+                    <text font-size="25" font-family="b homa" x="255" y="230" style="fill:black;"> هوش کلامی مقدماتی</text>
+                </svg>
+            </a>
+            <br/>
+
+            <a href="r.Html">
+                <svg width="310" height="370">
+                    <rect x="5" y="5" rx="10" ry="5" width="300" height="350" style="fill: #e4e4dc;stroke: #e4e4dc;stroke-width:3;" />
+                    <text font-size="25" font-family="b homa" x="230" y="40" style="fill:black;"> استاد رقیه پیری</text>
+                    
+                    <text font-size="25" font-family="b homa" x="250" y="230" style="fill:black;"> هوش کلامی پیشرفته</text>
+                </svg>
+            </a>
+            <br/>
+
+            <a href="g.Html">
+                <svg width="310" height="370">
+                    <rect x="5" y="5" rx="10" ry="5" width="300" height="350" style="fill: #e4e4dc;stroke: #e4e4dc;stroke-width:3;" />
+                    <text font-size="25" font-family="b homa" x="230" y="40" style="fill:black;"> استاد   ؟   گیاه‌تازه</text>
+                    
+                    <text font-size="35" font-family="b homa" x="150" y="230" style="fill:black;"> ؟ </text>
+                </svg>
+            </a>
+            <br/>
+        </div>
+
+        <br/><br/><br/>
+
+        <div id="aks">        
+            <a target="_blank" rel="nofllow" href="https://web.eitaa.com/#-91698330"><img src="eitaa.png"></a>
+            <a target="_blank" rel="nofllow" href="https://web.bale.ai/chat?uid=5821689977"><img src="bale.jpg"></a>
+        </div>
+        <br/><br/><br/><br/><br/>
+
+        <footer>
+            <p style="font-size: 25px; font-family: b homa;"> تمامی حقوق ما محفوظ است. | گروه برنامه نویسی علی جهانی و دوستان</p>
+        </footer>
+
+
+        </style>
+    </body>
+</html>
